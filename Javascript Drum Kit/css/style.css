@@ -1,0 +1,33 @@
+html {
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-abstract-digital-drum-kit-generative-ai_849906-12094.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh; /* 100 viewport height */
+    margin: 0; /* Sayfa kenar boşluklarını kaldır */
+    overflow: hidden;
+}
+
+.button {
+    width: 600px;
+    height: 600px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 20% auto; /* Sayfanın ortasına almak için margin kullanabilirsiniz */
+    margin-left: 30%;
+    
+}
+
+.button button {
+    transition: box-shadow 0.3s ease;
+}
+
+.button button:active, .button button:focus {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    transform: scale(3);
+}
